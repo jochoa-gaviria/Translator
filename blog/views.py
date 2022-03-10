@@ -7,3 +7,7 @@ from .models import Post
 class blogView(generic.DetailView):
     model = Post
     template_name = 'blog.html'
+
+class aboutView(generic.TemplateView):
+    template_name = 'about.html'
+
