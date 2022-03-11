@@ -11,3 +11,8 @@ class blogView(generic.DetailView):
 class aboutView(generic.TemplateView):
     template_name = 'about.html'
 
+class postList(generic.ListView):
+    # queryset = Post.objects.all()
+    queryset = Post.objects.filter(status=1).order_by('-dateCreate')
+    # queryset = Post.objects.order_by('dateCreate')
+    template_name = 'index.html'
