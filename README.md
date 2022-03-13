@@ -3,7 +3,7 @@
 ## Setting a virtual environment
 
 * python3 -m venv env
-* Activate virtual env - Ctrl+Shift+p and select the virtual env.
+* Activate virtual env - Ctrl+Shift+p and select the virtual env. or use "source env/bin/activate"
 * python3 -m pip install --upgrade pip
 * pip3 install django
 
