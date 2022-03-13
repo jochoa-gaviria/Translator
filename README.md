@@ -33,3 +33,7 @@
 #### To create apps
 
 * python3 manage.py startapp {name} to create an app
+
+
+#### Install librarie to translations
+* pip install googletrans
